@@ -236,6 +236,18 @@
   .ad-mid{margin:26px auto 10px;padding:18px 10px;background:var(--paper);border:1px solid var(--line)}
   .ad-mid .ad-frame{min-height:250px}
   .cards>.ad-mid{grid-column:1/-1;width:100%;margin:2px auto;justify-self:center}
+  .ad-native{margin:26px auto 10px;padding:18px 14px;background:var(--paper);border:1px solid var(--line)}
+  .ad-native .ad-native-box{min-height:120px;max-width:100%;overflow:hidden}
+  .cards>.ad-native{grid-column:1/-1;width:100%;margin:2px auto;justify-self:center}
+  .ad-m320{margin:26px auto 10px;padding:14px 10px;background:var(--paper);border:1px solid var(--line)}
+  .ad-m320 .ad-frame{min-height:50px}
+  .ad-side{margin:26px auto 0;padding:16px 10px;background:var(--paper);border:1px solid var(--line);text-align:center;max-width:100%}
+  .ad-w468{margin:26px auto 10px;padding:16px 10px;background:var(--paper);border:1px solid var(--line)}
+  .ad-w468 .ad-frame{min-height:60px}
+  .cards>.ad-w468{grid-column:1/-1;width:100%;margin:2px auto;justify-self:center}
+  .ad-side-300 .ad-frame{min-height:300px}
+  .ad-side-600 .ad-frame{min-height:600px}
+  .cards>.ad-m320{grid-column:1/-1;width:100%;margin:2px auto;justify-self:center}
   @media(max-width:760px){.ad-top .ad-frame{transform-origin:top center}}
   .more-wrap{text-align:center;padding:30px 0 10px}
   .more-btn{display:inline-flex;align-items:center;gap:10px;background:var(--maroon);color:#fff;font-family:"Noto Serif Bengali",serif;font-size:1.25rem;font-weight:800;padding:15px 42px;border:2px solid var(--maroon);box-shadow:0 6px 18px rgba(125,29,42,.22)}
@@ -318,14 +330,14 @@
       <div>
         <script>
           atOptions = {
-            'key' : 'c0d76f0982c9a33c9a9302fe4202fd3a',
+            'key' : '17d1b9b25ad132fff1297e19b9571aef',
             'format' : 'iframe',
             'height' : 90,
             'width' : 728,
             'params' : {}
           };
         </script>
-        <script data-cfasync="false" src="https://bicea.org/22/c0d76f0982c9a33c9a9302fe4202fd3a"></script>
+        <script data-cfasync="false" src="https://bicea.org/22/17d1b9b25ad132fff1297e19b9571aef"></script>
       </div>
     </div>
   </div>
@@ -378,14 +390,58 @@
             <div>
               <script>
                 atOptions = {
-                  'key' : '928f6bdd55ce588c35021e4d3b004aa9',
+                  'key' : '273c00a5a5ea30a53c183aad621edd67',
                   'format' : 'iframe',
                   'height' : 250,
                   'width' : 300,
                   'params' : {}
                 };
               </script>
-              <script data-cfasync="false" src="https://bicea.org/22/928f6bdd55ce588c35021e4d3b004aa9"></script>
+              <script data-cfasync="false" src="https://bicea.org/22/273c00a5a5ea30a53c183aad621edd67"></script>
+            </div>
+          </div>
+        </div>
+        <!-- Adsterra Native Banner — JS moves this into the card list (after the 7th card) so it blends with the news -->
+        <div class="ad-slot ad-native" id="adNative" aria-label="বিজ্ঞাপন">
+          <span class="ad-label">বিজ্ঞাপন</span>
+          <div class="ad-native-box">
+            <script async fetchpriority="high" data-cfasync="false" src="https://bicea.org/21/dac354d5714c927163bde08ef89ef65e"></script>
+            <div id="container-dac354d5714c927163bde08ef89ef65e"></div>
+          </div>
+        </div>
+        <!-- Adsterra 320x50 — mobile banner, JS moves this into the lower part of the card list -->
+        <div class="ad-slot ad-m320" id="adMobile320" aria-label="বিজ্ঞাপন">
+          <span class="ad-label">বিজ্ঞাপন</span>
+          <div class="ad-frame">
+            <div>
+              <script>
+                atOptions = {
+                  'key' : '6d54ff78d3b84160455dc3cf23e5d5a5',
+                  'format' : 'iframe',
+                  'height' : 50,
+                  'width' : 320,
+                  'params' : {}
+                };
+              </script>
+              <script data-cfasync="false" src="https://bicea.org/22/6d54ff78d3b84160455dc3cf23e5d5a5"></script>
+            </div>
+          </div>
+        </div>
+        <!-- Adsterra 468x60 — JS moves this into the lower part of the card list -->
+        <div class="ad-slot ad-w468" id="adWide468" aria-label="বিজ্ঞাপন">
+          <span class="ad-label">বিজ্ঞাপন</span>
+          <div class="ad-frame">
+            <div>
+              <script>
+                atOptions = {
+                  'key' : '036a7820d42837ce23adf891d9e66c7b',
+                  'format' : 'iframe',
+                  'height' : 60,
+                  'width' : 468,
+                  'params' : {}
+                };
+              </script>
+              <script data-cfasync="false" src="https://bicea.org/22/036a7820d42837ce23adf891d9e66c7b"></script>
             </div>
           </div>
         </div>
@@ -396,6 +452,24 @@
           <h3 class="serif">সর্বাধিক পঠিত</h3>
           <ol id="popList"></ol>
         </div>
+        <!-- Adsterra 160x300 — sidebar, beside the news -->
+        <div class="ad-slot ad-side ad-side-300" aria-label="বিজ্ঞাপন">
+          <span class="ad-label">বিজ্ঞাপন</span>
+          <div class="ad-frame">
+            <div>
+              <script>
+                atOptions = {
+                  'key' : '9712b6479e0f948f1f99cfdebaa6edf3',
+                  'format' : 'iframe',
+                  'height' : 300,
+                  'width' : 160,
+                  'params' : {}
+                };
+              </script>
+              <script data-cfasync="false" src="https://bicea.org/22/9712b6479e0f948f1f99cfdebaa6edf3"></script>
+            </div>
+          </div>
+        </div>
         <div class="news-box">
           <div class="kick">দৈনিক আপডেট</div>
           <h3>খবর থাকুক আপনার হাতের মুঠোয়</h3>
@@ -405,6 +479,24 @@
             <button type="submit">সাবস্ক্রাইব করুন</button>
           </form>
           <div class="note" id="subNote">সাবমিট করলে আপনার ইমেইল অ্যাপে একটি মেইল তৈরি হবে — পাঠালেই সাবস্ক্রিপশন সম্পন্ন হবে।</div>
+        </div>
+        <!-- Adsterra 160x600 — sidebar, below the subscribe box -->
+        <div class="ad-slot ad-side ad-side-600" aria-label="বিজ্ঞাপন">
+          <span class="ad-label">বিজ্ঞাপন</span>
+          <div class="ad-frame">
+            <div>
+              <script>
+                atOptions = {
+                  'key' : 'cbbafbce8a25373a872892d116a1c819',
+                  'format' : 'iframe',
+                  'height' : 600,
+                  'width' : 160,
+                  'params' : {}
+                };
+              </script>
+              <script data-cfasync="false" src="https://bicea.org/22/cbbafbce8a25373a872892d116a1c819"></script>
+            </div>
+          </div>
         </div>
       </aside>
     </div>
@@ -442,7 +534,7 @@
   </section>
   <!-- Smartlink — আরও দেখুন -->
   <div class="more-wrap">
-    <a class="more-btn" href="https://arwf.org/4/035f38da6c09923484019226be9ab15b" target="_blank" rel="noopener sponsored">আরও দেখুন <span class="arr" aria-hidden="true">→</span></a>
+    <a class="more-btn" href="https://arwf.org/4/77116c9ce8b9212f94eba68fca6501df" target="_blank" rel="noopener sponsored">আরও দেখুন <span class="arr" aria-hidden="true">→</span></a>
   </div>
 </main>
 
@@ -798,8 +890,14 @@ function render(){
   });
   var cardsEl = document.getElementById('cards');
   var adMid = document.getElementById('adMid');
-  /* Detach the mid ad before rebuilding the grid so innerHTML does not destroy its scripts/iframe */
+  var adNative = document.getElementById('adNative');
+  var adMobile320 = document.getElementById('adMobile320');
+  var adWide468 = document.getElementById('adWide468');
+  /* Detach the ads before rebuilding the grid so innerHTML does not destroy their scripts/iframes */
   if (adMid && adMid.parentNode) adMid.parentNode.removeChild(adMid);
+  if (adNative && adNative.parentNode) adNative.parentNode.removeChild(adNative);
+  if (adMobile320 && adMobile320.parentNode) adMobile320.parentNode.removeChild(adMobile320);
+  if (adWide468 && adWide468.parentNode) adWide468.parentNode.removeChild(adWide468);
   cardsEl.innerHTML = list.map(cardHTML).join('');
   /* Place the 300x250 banner truly inside the news flow — after the first 4 cards */
   if (adMid) {
@@ -816,6 +914,75 @@ function render(){
       adMid.style.display = '';
     } else {
       adMid.style.display = 'none';
+    }
+  }
+  /* Place the Native Banner further down the news flow — after the 7th card — so it blends with the cards */
+  if (adNative) {
+    if (list.length > 7) {
+      var seen = 0, target = null;
+      for (var k=0;k<cardsEl.children.length;k++){
+        var ch = cardsEl.children[k];
+        if (ch.id === 'adMid' || ch.id === 'adNative') continue;
+        seen++;
+        if (seen === 7) { target = ch; break; }
+      }
+      if (target && target.nextSibling) cardsEl.insertBefore(adNative, target.nextSibling);
+      else cardsEl.appendChild(adNative);
+      adNative.style.display = '';
+    } else if (list.length >= 5) {
+      cardsEl.appendChild(adNative);
+      adNative.style.display = '';
+    } else if (list.length >= 2) {
+      cardsEl.parentNode.insertBefore(adNative, document.getElementById('emptyMsg'));
+      adNative.style.display = '';
+    } else {
+      adNative.style.display = 'none';
+    }
+  }
+  /* Place the 320x50 mobile banner lower in the news flow — after the 10th card */
+  if (adMobile320) {
+    if (list.length > 10) {
+      var seen2 = 0, target2 = null;
+      for (var m=0;m<cardsEl.children.length;m++){
+        var ch2 = cardsEl.children[m];
+        if (ch2.id === 'adMid' || ch2.id === 'adNative' || ch2.id === 'adMobile320') continue;
+        seen2++;
+        if (seen2 === 10) { target2 = ch2; break; }
+      }
+      if (target2 && target2.nextSibling) cardsEl.insertBefore(adMobile320, target2.nextSibling);
+      else cardsEl.appendChild(adMobile320);
+      adMobile320.style.display = '';
+    } else if (list.length >= 8) {
+      cardsEl.appendChild(adMobile320);
+      adMobile320.style.display = '';
+    } else if (list.length >= 3) {
+      cardsEl.parentNode.insertBefore(adMobile320, document.getElementById('emptyMsg'));
+      adMobile320.style.display = '';
+    } else {
+      adMobile320.style.display = 'none';
+    }
+  }
+  /* Place the 468x60 banner at the bottom of the news flow — after the 13th card */
+  if (adWide468) {
+    if (list.length > 13) {
+      var seen3 = 0, target3 = null;
+      for (var w=0;w<cardsEl.children.length;w++){
+        var ch3 = cardsEl.children[w];
+        if (ch3.id === 'adMid' || ch3.id === 'adNative' || ch3.id === 'adMobile320' || ch3.id === 'adWide468') continue;
+        seen3++;
+        if (seen3 === 13) { target3 = ch3; break; }
+      }
+      if (target3 && target3.nextSibling) cardsEl.insertBefore(adWide468, target3.nextSibling);
+      else cardsEl.appendChild(adWide468);
+      adWide468.style.display = '';
+    } else if (list.length >= 11) {
+      cardsEl.appendChild(adWide468);
+      adWide468.style.display = '';
+    } else if (list.length >= 3) {
+      cardsEl.parentNode.insertBefore(adWide468, document.getElementById('emptyMsg'));
+      adWide468.style.display = '';
+    } else {
+      adWide468.style.display = 'none';
     }
   }
   document.getElementById('emptyMsg').style.display = list.length ? 'none' : 'block';
@@ -949,5 +1116,11 @@ document.getElementById('subForm').addEventListener('submit', function(e){
 
 render();
 </script>
+
+<!-- Adsterra Popunder -->
+<script data-cfasync="false" src="https://afders.org/1/18b5450001cffaea5847b15d46570489"></script>
+
+<!-- Adsterra Social Bar -->
+<script data-cfasync="false" src="https://bicea.org/14/b83aad4534cff1a1aa66dc4bceb32fa3"></script>
 </body>
 </html>
