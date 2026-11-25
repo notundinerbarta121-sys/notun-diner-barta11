@@ -1,0 +1,20 @@
+name: Replace index.html
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Replace index.html with new version
+        run: |
+          git config user.name "notundinerbarta121-sys"
+          git config user.email "notundinerbarta121@gmail.com"
+          git rm index.html
+          git mv ntun-diner-baartaa.html index.html
+          git commit -m "Update news: Gazipur wage protest + ambassador recall, 25 Nov"
+          git push
