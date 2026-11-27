@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notundinerbarta121-sys.github.io/notun-diner-barta11/sitemap.xml
